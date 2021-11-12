@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+body {
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.weather-body {
+  border: 2px solid black;
+  background: url(./assets/default-image.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 60vw;
+  min-height: 540px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.weather__data__city {
+  font-size: 30px;
+  font-family: 'Yuji Boku', serif;
+}
+/*# sourceMappingURL=style.css.map */
